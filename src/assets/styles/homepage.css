@@ -1,0 +1,131 @@
+.header-section{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.countries-text {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #3D3D3D
+}
+.countries-text-desktop{
+      font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #3D3D3D;
+    text-align: left;
+}
+
+.welcome-title {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #3D3D3D;
+    line-height: 34px;
+    position: relative;
+    top: 3px;
+}
+
+
+.left-line {
+    width: 100%;
+    border-bottom: 3px solid #3D3D3D;
+    margin-bottom: 22px;
+}
+
+.right-line {
+    width: 100%;
+    border-bottom: 3px solid #3D3D3D;
+    margin-top: 22px;
+}
+.region-btn {
+  background: none;
+  border: none;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #8B8B8B;
+  cursor: pointer;
+  padding-bottom: 6px;
+  position: relative;
+}
+.region-btn:hover {
+  color:#3D3D3D;
+   font-family: "Noto Sans", sans-serif;
+   /* border-bottom: 1px solid  #000; */
+
+}
+
+.region-btn.active {
+  color: #3D3D3D;
+  font-weight: 600;
+   font-family: "Noto Sans", sans-serif;
+border-bottom: 1px solid #3D3D3D;
+}
+
+.mobile-header {
+  padding: 15px 20px;
+}
+
+.mobile-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-icon {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.mobile-line {
+  width: 100%;
+  height: 2px;
+  background: #3D3D3D;
+  margin: 12px 0;
+}
+
+.mobile-welcome {
+  text-align: center;
+   font-family: "Noto Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #3D3D3D;
+  margin: 5px 0;
+}
+
+.loadmore-btn {
+     height: 45px;
+  background: #3C3C3C !important;
+  border: none !important;
+  border-radius: 0 !important;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  border: px solid #2d2d2d;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+.bottom-section{
+    margin-top: 50px;
+}  
