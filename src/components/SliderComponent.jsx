@@ -19,7 +19,7 @@ export default function SliderComponent({ items = [] }) {
   return (
     <div className="slider">
 
-      {/* SLIDER CONTENT */}
+      
       <div className="slider-view">
         {items.length > 0 ? (
           <img
